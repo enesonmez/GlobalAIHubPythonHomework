@@ -10,6 +10,14 @@ def isFloat(data): #Is the value in string data type float?
     except ValueError:
         return False
 
+# I wrote this function because the isdecimal function does not detect negative numbers.
+def isInt(data): #Is the value in string data type Int?
+    try:
+        int(data)
+        return True
+    except ValueError:
+        return False
+
 # 5 pieces of value are taken from the user and stored in the list.
 inputs = []
 for i in range(5):
@@ -18,7 +26,7 @@ for i in range(5):
 # Data and data types receive from the user are printed on the screen.
 for k, inp in enumerate(inputs):
     print("----------------------------\n{}. Value\n{}".format(k+1,inp))
-    if inp.isdecimal():
+    if isInt(inp):
         print(type(int(inp)))
     elif isFloat(inp):
         print(type(float(inp)))
