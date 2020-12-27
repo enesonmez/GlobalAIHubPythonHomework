@@ -24,3 +24,26 @@ Hangman Game Rules
 * The user's right to guess decreases with each wrong guess.
 * User can predict word, but if wrong, user's right to guess decreases.
 * If user say same word or letter what right to guess not change. She/He get warning message.
+
+## [Course Project Assignment](https://github.com/enesonmez/GlobalAIHubPythonHomework/blob/master/Course-Project-Assignment/studentManagementSystem.py)
+Create a Simple **Student Management System**: 
+* One student must enter their name and surname. 
+* A student who enter name and surname correctly should write "Welcome" on the screen with print. The Student has the right to enter his/her name and surname incorrectly 3 times. For more than 3 incorrect entries, the system shuts down and the message "Please try again later" should be printed on the screen. 
+* 5 courses should be created and these courses should be kept in a list. All of these lessons should be taken from the user. 
+* This student can take a minimum of 3 and a maximum of 5 lessons. 
+* This student cannot take less than 3 courses 
+* Otherwise, the message "You failed in class" should be returned to the student by using the return statement 
+* The student must choose one of these courses and take an exam. Add the grades from this course to a dictionary and keep the student's grades in this dictionary as midterm final and project grades 
+    * Example {"midterm": 38 "final": 66 "project' 39} 
+* Percentages for grades 
+    * Midterm Exam: 30% 
+    * Final 50% 
+    * Project: 20% 
+* Determine a course passing grade according to the grades received. 
+    * for notes 
+        * If the grade is> 90. the student should get AA 
+        * If 70 < grade < 90 BB 
+        * If 50 < grade < 70 CC 
+        * If 30 < grade < 50 DD 
+        * If x < 30, let FF take 
+* If the student has received FF he / she should print his / her failure on the screen 
