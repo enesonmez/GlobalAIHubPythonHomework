@@ -1,6 +1,7 @@
 # GlobalAIHubPythonHomework
 
-Introduction to Python Course - [Global AI Hub Community](https://globalaihub.com/)
+Introduction to Python Course - [Global AI Hub Community](https://globalaihub.com/)<br>
+[Introduction to Python Course Certificate](https://verified.cv/tr/verify/181673446412)
 
 ## [Homework 1](https://github.com/enesonmez/GlobalAIHubPythonHomework/blob/master/Homework-1/takeUserInputs.py)
 Take 5 values from the user and write a program that prints the values you get on the screen. Print the type of values you received in this program on the screen. When using print functions, do not forget to use f-string and format usage in your program. 
